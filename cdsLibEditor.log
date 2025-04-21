@@ -1,0 +1,17 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 01/17/2024 18:09 (csvcm36c-7) $
+\o Sub version:		sub-version  s353 
+\o Arguments:		-cdslib /home/saul/projects/TEST_NOPDK/cds.lib -mpssession virtuoso10186 -mpshost s2424 -mpsversion 6.18 
+\o Working Directory:	s2424:/home/saul/projects/TEST_NOPDK
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrResizeWindow(cdsLibEditor list(0 -37 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(1970 50 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 27 1)
+\o Active cell: 27 1 "/home/saul/projects/TEST_NOPDK/TEST_NOPDK"
+\a nrListItemRename(cdsLibEditor->mainTable, 27 1 "./TEST_NOPDK")
+\a nrListItemAction(cdsLibEditor->mainTable 28 0)
+\o Active cell: 28 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

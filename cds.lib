@@ -1,0 +1,6 @@
+# File Created by saul at Tue Apr 22 00:08:56 2025
+# assisted by CdsLibEditor
+SOFTINCLUDE $CDSHOME/share/cdssetup/cds.lib
+INCLUDE $IUSHOME/tools/inca/files/cds.lib
+
+DEFINE TEST_NOPDK ./TEST_NOPDK

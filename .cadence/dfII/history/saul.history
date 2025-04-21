@@ -1,0 +1,1 @@
+("test:/\ttest TEST_NOPDK schematic" (("open" (nil hierarchy "/{TEST_NOPDK test schematic }:a"))) (((-2.56875 -2.0) (2.56875 2.00625)) "a" "Schematics" 2))
